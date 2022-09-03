@@ -1,5 +1,5 @@
 # Redux-Cart
-This application is a cart prototype created to practice redux toolkit and thunk to manage state across app wide component
+This application is a cart prototype created to practice redux toolkit and thunk to manage state across app wide component. Firebase is used to fetch and stroe the cart data The cart fetching and stroing implementation is done using Thunk in a seperate file named as cart-Actions.js
 ### Demo: https://lucent-granita-64d261.netlify.app/
 # Getting Started with Create React App
 
