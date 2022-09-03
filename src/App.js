@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     dispatch(fetchCartData());
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     if (isinit) {

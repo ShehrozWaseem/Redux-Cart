@@ -23,7 +23,7 @@ export const fetchCartData = () => {
         cartActions.replaceCart({
           items: cartData.items || [],
           totalQuantity: cartData.totalQuantity,
-          cartTotalPRice: 0,
+          cartTotalPRice: cartData.items ? cartData.cartTotalPRice : 0,
         })
       );
     } catch (error) {
